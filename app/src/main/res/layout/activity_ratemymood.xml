@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ratemymood"
+    >
+
+    <Button
+        android:id="@+id/CoolBtn"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="73dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/RateMoodTextMultiLine"
+        app:layout_constraintEnd_toStartOf="@+id/ImpartialBtn"
+        app:layout_constraintTop_toBottomOf="@+id/SadBtn" />
+
+    <Button
+        android:id="@+id/ImpartialBtn"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:layout_marginBottom="73dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/RateMoodTextMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AngryBtn" />
+
+    <Button
+        android:id="@+id/InLoveBtn"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="72dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/RateMoodTextMultiLine"
+        app:layout_constraintEnd_toStartOf="@+id/SickBtn"
+        app:layout_constraintHorizontal_bias="0.663"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/SickBtn"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="73dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/RateMoodTextMultiLine"
+        app:layout_constraintEnd_toStartOf="@+id/CoolBtn"
+        app:layout_constraintTop_toBottomOf="@+id/UnhappyBtn" />
+
+    <Button
+        android:id="@+id/AngryBtn"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:layout_marginBottom="7dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/ImpartialBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SadBtn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/SadBtn"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="176dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.607"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/UnhappyBtn"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="7dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/SickBtn"
+        app:layout_constraintEnd_toStartOf="@+id/SadBtn"
+        app:layout_constraintTop_toBottomOf="@+id/RateToAboutBtn" />
+
+    <Button
+        android:id="@+id/RateToAboutBtn"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginRight="240dp"
+        android:layout_marginBottom="678dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/RateToHomeBtn"
+        android:layout_width="74dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="627dp"
+        android:layout_marginEnd="331dp"
+        android:layout_marginRight="331dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RateToAboutBtn" />
+
+    <Button
+        android:id="@+id/RateToCalendar"
+        android:layout_width="74dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="627dp"
+        android:layout_marginEnd="249dp"
+        android:layout_marginRight="249dp"
+        android:layout_marginBottom="6dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/RateToHomeBtn"
+        app:layout_constraintTop_toBottomOf="@+id/RateToAboutBtn" />
+
+    <Button
+        android:id="@+id/RateToFriendsBtn"
+        android:layout_width="78dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="675dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="91dp"
+        android:layout_marginBottom="6dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/RateToCalendar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/RateToProfileBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="677dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="6dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/RateToFriendsBtn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="184dp"
+        android:layout_height="44dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.918" />
+
+    <EditText
+        android:id="@+id/RateMoodTextMultiLine"
+        android:layout_width="318dp"
+        android:layout_height="73dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Enter your thoughts here..."
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        android:textColor="#FFFFFF"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RateToAboutBtn"
+        app:layout_constraintVertical_bias="0.569" />
+
+    <Button
+        android:id="@+id/happyBtn"
+        android:layout_width="49dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="5dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/InLoveBtn"
+        app:layout_constraintEnd_toStartOf="@+id/UnhappyBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RateToAboutBtn" />
+
+    <Button
+        android:id="@+id/clickhereButton"
+        android:layout_width="54dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="259dp"
+        android:layout_marginLeft="259dp"
+        android:layout_marginTop="158dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginRight="98dp"
+        android:layout_marginBottom="32dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RateMoodTextMultiLine" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
