@@ -40,7 +40,7 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     private void launchFriendsList() {
-        Intent i = new Intent(HomeActivity.this, FriendsList.class);
+        Intent i = new Intent(HomeActivity.this, FriendsListActivity.class);
         startActivity(i);
 
     }

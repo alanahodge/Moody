@@ -23,7 +23,7 @@
         <activity android:name=".ProfileActivity">
         </activity>
 
-        <activity android:name=".FriendsList">
+        <activity android:name=".FriendsListActivity">
         </activity>
 
         <activity android:name=".MainActivity">
