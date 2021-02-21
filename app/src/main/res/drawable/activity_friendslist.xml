@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/friendslist">
+
+    <Button
+        android:id="@+id/FriendsListToAbout"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/SearchBarTextEntry"
+        android:layout_width="277dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="Search"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textColor="#673AB7"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/FriendsListToRateMoodBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.373"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.228" />
+
+    <Button
+        android:id="@+id/FriendsListToHomeBtn"
+        android:layout_width="69dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/FriendsListToCalendarBtn"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/FriendsListToCalendarBtn"
+        android:layout_width="83dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="17dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/FriendsListToRateMoodBtn"
+        app:layout_constraintStart_toEndOf="@+id/FriendsListToHomeBtn" />
+
+    <Button
+        android:id="@+id/FriendsListToRateMoodBtn"
+        android:layout_width="69dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginRight="97dp"
+        android:layout_marginBottom="17dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/FriendsListToProfileBtn"
+        app:layout_constraintStart_toEndOf="@+id/FriendsListToCalendarBtn" />
+
+    <Button
+        android:id="@+id/FriendsListToProfileBtn"
+        android:layout_width="52dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginLeft="97dp"
+        android:layout_marginBottom="16dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/FriendsListToRateMoodBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
