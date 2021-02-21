@@ -26,6 +26,11 @@
         <activity android:name=".FriendsListActivity">
         </activity>
 
+        <activity android:name=".MoodCalendarActivity">
+        </activity>
+        <activity android:name=".RateMyMoodActivity">
+        </activity>
+
         <activity android:name=".MainActivity">
         </activity>
     </application>
