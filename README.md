@@ -4,6 +4,7 @@
 Created in collaboration for submission to UofTHacks VIII. 
 
 DevPost Submission: https://devpost.com/software/moody-jocvfi
+
 Demo Video: https://www.youtube.com/watch?v=Xy_foY_nqTk&feature=youtu.be
 
 Moody was inspired by current events, and how we've been connecting with others during these difficult times. While self-isolating due to the COVID-19 pandemic, we notice that like ourselves, many of our friends were struggling with their mental health. Feelings of loneliness, anxiety, depression, sadness and hopelessness seemed to be common. In an attempt to better connect with our friends and to help support each other, we wanted to create a simple way to check in with our loved ones and their feelings, to help to elevate our own moods as well as the moods of others.
